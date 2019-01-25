@@ -1,0 +1,25 @@
+#Belajar Git => untuk melakukan project management control system untuk melacak history coding yang ada di directory file
+
+#checkpoint = commit
+#final 1.0 = commit
+#repository = staging area
+
+#cara memasukkan seluruh file di directory file ke dalam staging area => git add .
+#cara memasukkan commit dalam staging area => git commit --m "*message*"
+#cara melihat status di staging area => git status
+#cara menghapus file dari staging area => git rm --cached *nama file yang mau dihapus*
+#cara melihat log commit => git log atau git log --oneline
+#untuk melihat history commit tertentu (read-only g bisa diedit)=> git checkout *commit ID yg ingin dilihat*
+#untuk menuju ke commit yang terakhir => git checkout master
+#untuk mereset ke commit yang paling awal (coding2 setelahnya yang ada di commit akan hilang)=> git reset *commit ID* --hard
+
+#Cara nyimpen commit di gitHub
+bikin repository di github
+origin nama alias link repo kita di github
+git push origin master
+cara upload commit ke github => git remote add origin https://github.com/karinagustina/tes123.git
+cara update commit di github => git push origin master
+
+cara menyembunyikan file dalam directory yg sama tpi tidak bisa terbaca di github =>
+1 bikin file .gitignore
+2 masukkan nama file yang mau diignore ke dalam .gitignore
