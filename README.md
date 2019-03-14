@@ -39,10 +39,10 @@ $ git commit -m "test"
 
 ## Tabel
 
-Nama , Usia , Kota
-- , - ,-
-Andi | 21 | Jakarta
-Budi | 21 | Jogjakarta
-Caca | 23 | Semarang
+| Nama | Usia | Kota |
+| - | - | - |
+| Andi | 21 | Jakarta |
+| Budi | 21 | Jogjakarta |
+| Caca | 23 | Semarang |
 
 
